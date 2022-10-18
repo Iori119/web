@@ -1,0 +1,248 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-size: 100%;
+
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: aliceblue;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 1.8),
+            rgba(0, 0, 0, 0.2)), url(media/perritocorte.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(74, 178, 226);
+
+
+}
+
+#log {
+    font-family: Impac;
+    font-size: 2em;
+
+}
+
+.container-fluid {
+    background-color: rgb(74, 178, 226);
+    margin: 0px 0px -15px;
+
+
+
+}
+
+#copy {
+    color: white;
+
+
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(236, 231, 231);
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+
+
+}
+
+.navbar a {
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+
+
+}
+
+.navbar a:hover {
+    background: rgb(245, 239, 239);
+    font-size: 10;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 12vh;
+}
+
+#what {
+    text-transform: uppercase;
+}
+
+#nav {
+    text-transform: uppercase;
+
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    background-color: rgb(74, 178, 226);
+    flex-direction: column;
+
+}
+
+#ubi {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 3px 0px 3px 0px;
+    color: white;
+}
+
+.horarios {
+    background-color: rgb(74, 178, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#hora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5px;
+
+}
+
+#titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#container {
+    background-color: rgb(25, 91, 146);
+
+}
+
+#perrito1 {
+
+    height: 800px;
+
+}
+
+#logomedio {
+
+    width: 50%;
+
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px;
+    margin-top: 10%;
+    margin: 0px 0px 20px;
+
+}
+
+#dias {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+
+}
+
+
+#dias2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-right: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif Arial, sans-serif;
+    font-size: 13px;
+
+
+}
+
+#clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lunes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ir{
+    display: inline-block;
+    
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    margin: 0px 5px 5px;
+    border-radius: 100%;
+    
+}
+#ir:hover{
+    font-size: 30px;
+}
+#servicio h3{
+   
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    margin: 1px ;
+    color: aliceblue;
+    border-color: black;
+    border-right: 2px;
+    border-radius: 20px;
+  
+
+}
+#baño{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#servicio{
+
+    background-color:  rgb(54, 167, 219);
+}
